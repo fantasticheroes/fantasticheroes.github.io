@@ -1,0 +1,353 @@
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 0 auto;
+    width: 1600px;
+}
+
+.fantastic-heroes-menu {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    
+}
+
+.logo {
+    width: 381px;
+    height: 84px;
+    background-image: url(../img/logo.png);
+    margin-left: 38px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.menu {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 51px;
+    margin-bottom: 57px;
+    margin-left: 220px;
+    margin-right: 108px;
+    
+    
+}
+
+.menu li {
+    margin-left: 40px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #111111;
+}
+
+.menu a:hover{
+    border-bottom: 4px solid #2c2c2c;
+    padding-bottom: 15px;
+}
+
+.entered {
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.entered-image {
+    width: 419px;
+    height: 329px;
+    background-image: url(../img/img1.png);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.entered-text {
+    font-size: 36px;
+    text-align: center;
+    margin-left: 150px;
+}
+
+.download-button {
+    font-size: 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    color: white;
+    background-color: #101010;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 290px;
+}
+
+.download-button:hover {
+    color: #101010;
+    background-color: #f0f0f0;
+    transition: 0.3s;
+}
+
+.invite-friend {
+    width: 1265px;
+    height: 257px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.invite-friend-text {
+    font-size: 36px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.invite-friend-img {
+    width: 259px;
+    height: 119px;
+    background-image: url(../img/img2.png);
+    margin-left: 170px;
+    margin-top: 60px;
+}
+
+.news {
+    margin-bottom: 56px;
+}
+
+.news h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.news_design {
+    width: 1277px;
+    height: 176px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.img_news_1 {
+    width: 176px;
+    height: 176px;
+    background-image: url(../img/img_news_1.png);
+}
+
+.img_news_2 {
+    width: 176px;
+    height: 176px;
+    background-image: url(../img/img_news_2.png);
+}
+
+
+.block_news {
+    font-size: 30px;
+    margin-left: 40px;
+    width: 1017px;
+    height: 176px;
+    background: #eaeaea;
+}
+
+.text_news {
+    margin-top: 22px;
+    margin-left: 15px;
+}
+
+.text_news p{
+    margin: 0;
+    margin-top: 16px;
+}
+
+footer {
+    margin: 0 auto;
+}
+
+.our_inf {
+    width: 100%;
+    height: 100px;
+    background: #eaeaea;
+    font-size: 24px;
+    color: #1f1f1f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.our_inf p {
+    margin-top: 35px;
+}
+
+.donate {
+    margin: 0 auto;
+}
+
+.donate-container {
+    margin: 0 auto;
+    width: 405px;
+    height: 619px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.donate h1{
+    font-size: 48px;
+    margin: 0;
+    text-align: center;
+}
+
+.donate p{
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 55px;
+}
+
+.donate-line1 {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1055px;
+}
+
+.donate-line2 {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1055px;
+    margin-top: 20px;
+}
+
+.donate-buy1 {
+    width: 506px;
+    height: 619px;
+    background-image: url(../img/donate-box1.png);  
+}
+
+.donate-buy2 {
+    width: 506px;
+    height: 619px;
+    background-image: url(../img/donate-box2.png);
+}
+
+.donate-buy3 {
+    width: 506px;
+    height: 619px;
+    background-image: url(../img/donate-box3.png);
+}
+
+.donate-icon1 {
+    width: 262px;
+    height: 262px;
+    background-image: url(../img/donate-icon-40.png);
+    margin-left: 70px;   
+}
+
+.donate-icon2 {
+    width: 262px;
+    height: 262px;
+    background-image: url(../img/donate-icon-vip.png);
+    margin-left: 70px;   
+}
+
+.donate-icon3 {
+    width: 262px;
+    height: 262px;
+    background-image: url(../img/donate-icon-commandeer.png);
+    margin-left: 70px;   
+}
+
+.donate-text {
+    font-size: 24px;
+    text-align: center;
+}
+
+.donate-button1 {
+    font-size: 36px;
+    text-decoration: none;
+    border: none;
+    color: white;
+    background-color: #3f3322;
+    border-radius: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+}
+
+.donate-button1:hover{
+    color: #3f3322;
+    background-color: #fbf3e8;
+    transition: 0.3s
+}
+
+.donate-button2 {
+    font-size: 36px;
+    text-decoration: none;
+    border: none;
+    color: white;
+    background-color: #42421f;
+    border-radius: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+}
+
+.donate-button2:hover{
+    color: #42421f;
+    background-color: #f5f5e3;
+    transition: 0.3s
+}
+
+.donate-button3 {
+    font-size: 36px;
+    text-decoration: none;
+    border: none;
+    color: white;
+    background-color: #1f3d1f;
+    border-radius: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+}
+
+.donate-button3:hover{
+    color: #1f3d1f;
+    background-color: #e2f3e2;
+    transition: 0.3s
+}
+
+
+.donate-h {
+    font-size: 48px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.button_align {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
